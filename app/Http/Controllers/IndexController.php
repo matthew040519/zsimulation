@@ -53,4 +53,16 @@ class IndexController extends Controller
 
         return view('genology')->with('params', $params);
     }
+
+    public function reset()
+    {
+        members::truncate();
+        directinvite::truncate();
+        perfectStructureModel::truncate();
+        spillover::truncate();
+        tree::truncate();
+        system_setup::truncate();
+
+        return redirect('/');
+    }
 }

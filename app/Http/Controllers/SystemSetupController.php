@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\system_setup;
+use App\Models\members;
+use App\Models\tree;
 
 class SystemSetupController extends Controller
 {
@@ -35,6 +37,16 @@ class SystemSetupController extends Controller
         ]);
 
         system_setup::create($validated);
+
+        members::create([
+            'username' => 'root',
+            'upline' => NULL,
+            'sponsor' => NULL
+        ]);
+
+        tree::create([
+            'username' => 'root'
+        ]);
 
         return redirect('/dashboard');
 

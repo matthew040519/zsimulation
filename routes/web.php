@@ -19,6 +19,8 @@ use App\Http\Controllers\ReportsController;
 
 Route::get('/', [IndexController::class, 'index']);
 
+Route::get('/reset', [IndexController::class, 'reset']);
+
 Route::get('/dashboard', [IndexController::class, 'dashboard']);
 
 Route::get('/overall-reports', [ReportsController::class, 'index']);
