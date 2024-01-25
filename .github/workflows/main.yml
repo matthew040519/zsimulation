@@ -24,7 +24,9 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: 69.57.162.30
+          server: ftp.davidecommerce.site
           username: simulation2@simulation2.davidecommerce.site
           password: simulation123456789
           server-dir: /
+          protocol: ftps
+          port: 21
