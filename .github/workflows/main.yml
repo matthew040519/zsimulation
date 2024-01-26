@@ -30,3 +30,4 @@ jobs:
           server-dir: /
           protocol: ftps
           port: 21
+          timeout: 60000
