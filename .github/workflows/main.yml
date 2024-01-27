@@ -28,3 +28,5 @@ jobs:
           username: simulation2@simulation2.davidecommerce.site
           password: matthew040519
           server-dir: /
+          protocol: ftps
+          port: 21
