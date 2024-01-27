@@ -26,5 +26,5 @@ jobs:
         with:
           server: ftp.davidecommerce.site
           username: zsimulation@zsimulation.davidecommerce.site
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: matthew040519
           server-dir: /
