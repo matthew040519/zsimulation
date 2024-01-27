@@ -56,11 +56,11 @@ class IndexController extends Controller
 
     public function reset()
     {
-        members::truncate();
-        directinvite::truncate();
-        perfectStructureModel::truncate();
-        spillover::truncate();
-        tree::truncate();
+        // members::truncate();
+        // directinvite::truncate();
+        // perfectStructureModel::truncate();
+        // spillover::truncate();
+        // tree::truncate();
         system_setup::truncate();
 
         return redirect('/');

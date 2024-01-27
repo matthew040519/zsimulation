@@ -102,7 +102,7 @@
                             <div class="col-md-6">
                                 <div class="card mt-3 mb-3">
                                     <div class="card-header">
-                                        <label for="">Perfect Structure</label>
+                                        <label for="">Direct Invite</label>
                                     </div>
                                         <div class="card-body">
                                             <table class="table">

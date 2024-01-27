@@ -194,7 +194,7 @@
                     </ul>
                 </li>
               @endif
-              @if($params['head']->third_slot != "")
+              @if($params['head']->fourth_slot != "")
             <li><code><a href="/genology?username={{ $params['head']->fourth_slot }}">{{ $params['head']->fourth_slot }}</a></code>
               <ul>
                 @if($params['fourth_slot']->first_slot != "")
