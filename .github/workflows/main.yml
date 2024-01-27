@@ -28,3 +28,4 @@ jobs:
           username: zsimulation@zsimulation.davidecommerce.site
           password: matthew040519
           server-dir: /
+          protocol: ftps
