@@ -12,58 +12,58 @@
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label class="form-label">Total Package SRP</label>
-                                                <input type="text" readonly value="{{ number_format($params['total_package_srp'], 2); }}" name="package_srp" class="form-control" placeholder="Package SRP">
+                                                <input type="text" readonly value="{{ number_format($params['total_package_srp'], 2) }}" name="package_srp" class="form-control" placeholder="Package SRP">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label class="form-label">Total Package Expense</label>
-                                                <input type="text" readonly value="{{ number_format($params['total_package_expense'], 2); }}" name="package_expense" class="form-control" placeholder="Package Expense">
+                                                <input type="text" readonly value="{{ number_format($params['total_package_expense'], 2) }}" name="package_expense" class="form-control" placeholder="Package Expense">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Direct Referral</label>
-                                                <input type="text" value="{{ number_format($params['total_dr'], 2); }}" readonly name="direct_referall" class="form-control" placeholder="Direct Referral">
+                                                <input type="text" value="{{ number_format($params['total_dr'], 2) }}" readonly name="direct_referall" class="form-control" placeholder="Direct Referral">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Personal Spill Over</label>
-                                                <input type="text" readonly value="{{ number_format($params['total_pso'], 2); }}" name="personal_so" class="form-control" placeholder="Personal Spill Over">
+                                                <input type="text" readonly value="{{ number_format($params['total_pso'], 2) }}" name="personal_so" class="form-control" placeholder="Personal Spill Over">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Indirect Spill Over</label>
-                                                <input type="text" readonly value="{{ number_format($params['total_iso'], 2); }}" name="indirect_so" class="form-control" placeholder="Personal Spill Over">
+                                                <input type="text" readonly value="{{ number_format($params['total_iso'], 2) }}" name="indirect_so" class="form-control" placeholder="Personal Spill Over">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Perfect Structure Bonus</label>
-                                                <input type="text" value="{{ number_format($params['total_ps'], 2); }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
+                                                <input type="text" value="{{ number_format($params['total_ps'], 2) }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Expense</label>
-                                                <input type="text" style="color: red;" readonly value="{{ number_format($params['total_expense'], 2); }}" name="indirect_so" class="form-control" placeholder="Personal Spill Over">
+                                                <input type="text" style="color: red;" readonly value="{{ number_format($params['total_expense'], 2) }}" name="indirect_so" class="form-control" placeholder="Personal Spill Over">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Gross Income</label>
-                                                <input type="text" style="color: green;" value="{{ number_format($params['total_gross_sales'], 2); }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
+                                                <input type="text" style="color: green;" value="{{ number_format($params['total_gross_sales'], 2) }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                             <label class="form-label">Total Net Income</label>
                                                 @if($params['total_net_sales'] > 0)
-                                                    <input type="text" style="color: green;" value="{{ number_format($params['total_net_sales'], 2); }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
+                                                    <input type="text" style="color: green;" value="{{ number_format($params['total_net_sales'], 2) }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
                                                 @else
-                                                    <input type="text" style="color: red;" value="{{ number_format($params['total_net_sales'], 2); }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
+                                                    <input type="text" style="color: red;" value="{{ number_format($params['total_net_sales'], 2) }}" readonly name="perfect_structure" class="form-control" placeholder="Perfect Structure Bonus">
                                                 @endif
                                             </div>
                                         </div>
